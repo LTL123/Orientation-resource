@@ -1,8 +1,15 @@
-/* WeChat H5 Optimizations */
+/* Mobile Optimizations */
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    /* Support for dynamic viewport and safe areas */
+    height: 100%;
+    height: 100dvh;
+    /* Prevent horizontal scroll */
+    overflow-x: hidden;
+    /* Smooth scrolling */
+    scroll-behavior: smooth;
 }
 
 * {
@@ -24,19 +31,32 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
+    min-height: 100dvh;
     color: #333;
+    /* Fallback for browsers that don't support dvh */
+    min-height: calc(100vh - env(keyboard-inset-height, 0px));
+    /* Prevent horizontal scroll */
+    overflow-x: hidden;
+    /* Mobile touch optimizations */
+    -webkit-overflow-scrolling: touch;
+    /* Safe area support */
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
-    /* WeChat H5 mobile optimization */
+    /* Mobile optimization */
     width: 100%;
     overflow-x: hidden;
+    /* Ensure proper box sizing */
+    box-sizing: border-box;
+    /* Safe area support */
+    padding-left: max(15px, env(safe-area-inset-left));
+    padding-right: max(15px, env(safe-area-inset-right));
 }
 
 .header {
