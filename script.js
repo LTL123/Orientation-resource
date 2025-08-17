@@ -1,1 +1,485 @@
-const _0x194cb6=_0x38a3;(function(_0x12ae1e,_0x4ddd05){const _0x7fc3fd=_0x38a3,_0x38ece3=_0x12ae1e();while(!![]){try{const _0x39315a=-parseInt(_0x7fc3fd(0x110))/0x1+parseInt(_0x7fc3fd(0x196))/0x2*(-parseInt(_0x7fc3fd(0x1aa))/0x3)+-parseInt(_0x7fc3fd(0x1b0))/0x4*(-parseInt(_0x7fc3fd(0x146))/0x5)+parseInt(_0x7fc3fd(0x121))/0x6+parseInt(_0x7fc3fd(0xef))/0x7+-parseInt(_0x7fc3fd(0x155))/0x8+-parseInt(_0x7fc3fd(0x12d))/0x9;if(_0x39315a===_0x4ddd05)break;else _0x38ece3['push'](_0x38ece3['shift']());}catch(_0xfd2692){_0x38ece3['push'](_0x38ece3['shift']());}}}(_0x52ed,0xd30be));function _0x38a3(_0xdad710,_0x2111d0){const _0x52ed64=_0x52ed();return _0x38a3=function(_0x38a387,_0x2e19dc){_0x38a387=_0x38a387-0xe6;let _0x4531ca=_0x52ed64[_0x38a387];return _0x4531ca;},_0x38a3(_0xdad710,_0x2111d0);}let files=[{'id':0x1,'name':_0x194cb6(0x115),'url':_0x194cb6(0x128),'category':_0x194cb6(0x151),'description':_0x194cb6(0xf3),'icon':_0x194cb6(0x19e)},{'id':0x2,'name':_0x194cb6(0x147),'url':_0x194cb6(0x103),'category':_0x194cb6(0x185),'description':_0x194cb6(0xfc),'icon':_0x194cb6(0x1a9)},{'id':0x3,'name':_0x194cb6(0x1a7),'url':_0x194cb6(0x179),'category':_0x194cb6(0x185),'description':'Assessment\x20rubrics\x20and\x20competency\x20indicators\x20for\x20educational\x20evaluation.','icon':_0x194cb6(0x136)},{'id':0x4,'name':'2025\x20HR\x20Induction\x20for\x20New\x20Staffs','url':_0x194cb6(0x179),'category':'hr','description':_0x194cb6(0x153),'icon':_0x194cb6(0x19c)},{'id':0x5,'name':'Campus\x20Service','url':_0x194cb6(0x180),'category':_0x194cb6(0x1a3),'description':_0x194cb6(0x186),'icon':_0x194cb6(0x105)},{'id':0x6,'name':'CBL\x20Content','url':'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.7550532856PNg','category':_0x194cb6(0x185),'description':'Complete\x20folder\x20containing\x20all\x20Competency-Based\x20Learning\x20content\x20and\x20resources.','icon':_0x194cb6(0x16c)},{'id':0x7,'name':_0x194cb6(0x173),'url':'https://doc.weixin.qq.com/doc/w3_AZEAQwZ-AKECNSFwEqJqWS26L4J6K?scode=AIkA9Qf4AHYUAGz6wMAZEAQwZ-AKE&folder_share_code=AIkA9Qf4AHY6iSz9C1','category':_0x194cb6(0x1a3),'description':_0x194cb6(0xf7),'icon':_0x194cb6(0x125)},{'id':0x8,'name':'Unit\x20Planner\x20Cheatsheet','url':_0x194cb6(0x169),'category':_0x194cb6(0x185),'description':_0x194cb6(0x118),'icon':_0x194cb6(0x142)},{'id':0x9,'name':_0x194cb6(0x14e),'url':_0x194cb6(0xf0),'category':'campus','description':_0x194cb6(0x116),'icon':_0x194cb6(0x14d)},{'id':0xa,'name':_0x194cb6(0xf6),'url':'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755163566020X','category':'hr','description':_0x194cb6(0x189),'icon':'fas\x20fa-graduation-cap'},{'id':0xb,'name':_0x194cb6(0x107),'url':'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYPxngRov','category':_0x194cb6(0x185),'description':_0x194cb6(0x12a),'icon':_0x194cb6(0xe7)},{'id':0xc,'name':'The First Week of School','url':'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.755219635qEib','category':'campus','description':'Resources for the first week of school.','icon':'fas fa-school'},{'id':0xd,'name':'Medical Insurance Orientation','url':'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYaFskDY9','category':'hr','description':'Information about the medical insurance plan.','icon':'fas fa-medkit'}];const weeklySchedule=[{'day':_0x194cb6(0x11b),'events':[{'time':'8:30-8:45','activity':'Arrival'},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x18e),'presenter':_0x194cb6(0x17e)},{'time':_0x194cb6(0x111),'activity':_0x194cb6(0x12f),'presenters':[_0x194cb6(0x171),'Jie','Rose'],'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x15b),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x124),'activity':'Safeguard\x20Training','presenter':_0x194cb6(0x17e),'location':_0x194cb6(0xea)},{'time':'12:15-13:15','activity':_0x194cb6(0x1b5)},{'time':'13:15-14:15','activity':_0x194cb6(0x11d),'presenter':_0x194cb6(0x17e),'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x13b),'activity':_0x194cb6(0x141)},{'time':_0x194cb6(0xf2),'activity':_0x194cb6(0x18c),'location':_0x194cb6(0xea)},{'time':_0x194cb6(0xf8),'activity':_0x194cb6(0x178)}]},{'day':'Tuesday\x20Aug\x2019','events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x183),'presenter':_0x194cb6(0xf4)},{'time':_0x194cb6(0x111),'activity':_0x194cb6(0x193),'presenter':_0x194cb6(0x17e),'location':'3-503'},{'time':_0x194cb6(0x15b),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x124),'activity':_0x194cb6(0x195),'location':'Rooms\x202-201,\x202-202,\x202-203,\x202-204'},{'time':_0x194cb6(0x166),'activity':'Lunch'},{'time':_0x194cb6(0x13c),'activity':_0x194cb6(0x168),'presenter':_0x194cb6(0x16a),'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x15f),'activity':'Break'},{'time':'15:00-16:30','activity':'First\x20Aid\x20Training\x20(External\x20Provider)','presenters':['Michelle\x20Liang','Rachel'],'location':_0x194cb6(0x127)},{'time':'16:30-17:00','activity':_0x194cb6(0x178)}]},{'day':_0x194cb6(0x10d),'events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x183),'presenter':_0x194cb6(0x1b2)},{'time':_0x194cb6(0x1ad),'activity':_0x194cb6(0x161),'presenters':[_0x194cb6(0xeb),_0x194cb6(0x114)],'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x164),'activity':_0x194cb6(0xfa)},{'time':'10:30-11:30','activity':_0x194cb6(0x156),'presenter':_0x194cb6(0xf4),'location':_0x194cb6(0xea)},{'time':'11:30-12:15','activity':_0x194cb6(0x195),'location':'Rooms\x202-201,\x202-202,\x202-203,\x202-204'},{'time':_0x194cb6(0x166),'activity':'Lunch'},{'time':_0x194cb6(0x182),'activity':_0x194cb6(0x160),'presenters':[_0x194cb6(0x132)]}]},{'day':'Thursday\x20Aug\x2021','events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':_0x194cb6(0x150),'activity':'Touchbase'},{'time':_0x194cb6(0x1ad),'activity':_0x194cb6(0x1b6)},{'time':_0x194cb6(0x164),'activity':_0x194cb6(0xfa)},{'time':'10:30-12:15','activity':_0x194cb6(0x1b6)},{'time':'12:15-13:15','activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x17a),'activity':_0x194cb6(0x1b6)}]},{'day':_0x194cb6(0x1b3),'events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x183)},{'time':_0x194cb6(0x1ad),'activity':_0x194cb6(0x1b6)},{'time':_0x194cb6(0x164),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x1ab),'activity':_0x194cb6(0x1b6)},{'time':'12:15-13:15','activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x17a),'activity':_0x194cb6(0x1b6)}]}],kindergartenSchedule=[{'day':_0x194cb6(0x11b),'events':[{'time':_0x194cb6(0x12c),'activity':'Arrival'},{'time':'8:45-9:15','activity':_0x194cb6(0x18e),'presenter':_0x194cb6(0x17e)},{'time':'9:15-10:45','activity':_0x194cb6(0x12f),'presenters':[_0x194cb6(0x171),_0x194cb6(0xed),_0x194cb6(0x17e)],'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x15b),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x124),'activity':_0x194cb6(0x113),'presenter':'Rose','location':'3-503'},{'time':'12:15-13:15','activity':_0x194cb6(0x1b5)},{'time':'13:15-14:15','activity':_0x194cb6(0x11d),'presenter':'Rose','location':_0x194cb6(0xea)},{'time':_0x194cb6(0x13b),'activity':'Break'},{'time':'14:30-16:00','activity':_0x194cb6(0x12e),'presenter':_0x194cb6(0x16a),'location':'3-501A'},{'time':_0x194cb6(0xf8),'activity':_0x194cb6(0x178)}]},{'day':_0x194cb6(0x1a6),'events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':'8:45-9:15','activity':_0x194cb6(0x183),'presenter':'Michelle\x20Liang'},{'time':_0x194cb6(0x111),'activity':_0x194cb6(0x193),'presenter':_0x194cb6(0x17e),'location':'3-503'},{'time':'10:45-11:15','activity':'Tea\x20Break'},{'time':_0x194cb6(0x124),'activity':_0x194cb6(0x195),'location':'Rooms\x202-201,\x202-202,\x202-203,\x202-204'},{'time':_0x194cb6(0x166),'activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x13c),'activity':_0x194cb6(0x168),'presenter':'Michelle\x20Ip','location':_0x194cb6(0xea)},{'time':_0x194cb6(0x15f),'activity':'Break'},{'time':_0x194cb6(0xfd),'activity':_0x194cb6(0x11f),'presenters':[_0x194cb6(0xf4),'Rachel'],'location':'TBD'},{'time':_0x194cb6(0xf8),'activity':'Divisional\x20Checkout'}]},{'day':_0x194cb6(0x10d),'events':[{'time':_0x194cb6(0x12c),'activity':'Arrival'},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x183),'presenter':'Vera'},{'time':_0x194cb6(0x1ad),'activity':_0x194cb6(0x161),'presenters':[_0x194cb6(0xeb),'Chundan'],'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x164),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x134),'activity':'Mingwan\x20Parents\x20in\x20Focus:\x20Demands,\x20Expectations,\x20and\x20Collaboration\x20Pathways','presenter':_0x194cb6(0xf4),'location':_0x194cb6(0xea)},{'time':_0x194cb6(0x10e),'activity':_0x194cb6(0x195),'location':_0x194cb6(0x10c)},{'time':'12:15-13:15','activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x14b),'activity':_0x194cb6(0x1b1),'presenter':_0x194cb6(0xed),'location':_0x194cb6(0x129)},{'time':_0x194cb6(0x19d),'activity':'Disease,\x20Safety,\x20and\x20Accident\x20Report\x20Procedure','presenters':[_0x194cb6(0xed),_0x194cb6(0x194)]},{'time':_0x194cb6(0x16e),'activity':'Lesson\x20Planning\x20/\x20Classroom\x20Set-up','presenters':[_0x194cb6(0x132)]}]},{'day':_0x194cb6(0x112),'events':[{'time':_0x194cb6(0x12c),'activity':'Arrival'},{'time':_0x194cb6(0x150),'activity':_0x194cb6(0x183)},{'time':'9:15-10:15','activity':_0x194cb6(0x1b6)},{'time':_0x194cb6(0x164),'activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x1ab),'activity':'Adaptive\x20Schools'},{'time':_0x194cb6(0x166),'activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x17a),'activity':'Adaptive\x20Schools'}]},{'day':_0x194cb6(0x1b3),'events':[{'time':_0x194cb6(0x12c),'activity':_0x194cb6(0x177)},{'time':_0x194cb6(0x150),'activity':'Touchbase'},{'time':'9:15-10:15','activity':_0x194cb6(0x1b6)},{'time':'10:15-10:30','activity':_0x194cb6(0xfa)},{'time':_0x194cb6(0x1ab),'activity':'Adaptive\x20Schools'},{'time':_0x194cb6(0x166),'activity':_0x194cb6(0x1b5)},{'time':_0x194cb6(0x17a),'activity':'Adaptive\x20Schools'}]}],categoryConfig={'tax':{'name':_0x194cb6(0xf9),'color':_0x194cb6(0x13a)},'curriculum':{'name':_0x194cb6(0x15e),'color':'#68d391'},'hr':{'name':_0x194cb6(0x19a),'color':'#9f7aea'},'campus':{'name':'Campus\x20Services','color':_0x194cb6(0x1b9)}},filesGrid=document[_0x194cb6(0x138)]('filesGrid'),searchInput=document[_0x194cb6(0x138)]('searchInput'),filterButtons=document[_0x194cb6(0x1ac)](_0x194cb6(0x17c));let currentFilter=_0x194cb6(0x165),currentSearch='';function init(){const _0x5ce0f8=_0x194cb6;renderFiles(),renderSchedule(_0x5ce0f8(0x198)),renderSchedule(_0x5ce0f8(0x11c)),setupEventListeners(),setupProtection();}function setupEventListeners(){const _0xb6e4f3=_0x194cb6;searchInput[_0xb6e4f3(0x1b8)](_0xb6e4f3(0x149),_0x4bb9da=>{const _0x55a310=_0xb6e4f3;currentSearch=_0x4bb9da[_0x55a310(0x199)][_0x55a310(0x102)][_0x55a310(0x1a4)](),renderFiles();}),filterButtons['forEach'](_0x244ce3=>{const _0x4cdb56=_0xb6e4f3;_0x244ce3[_0x4cdb56(0x1b8)](_0x4cdb56(0x175),_0x1ce7f0=>{const _0x2c03d6=_0x4cdb56;filterButtons[_0x2c03d6(0x11a)](_0x2dbddd=>_0x2dbddd['classList']['remove']('active')),_0x1ce7f0[_0x2c03d6(0x199)][_0x2c03d6(0x122)][_0x2c03d6(0x13d)]('active'),currentFilter=_0x1ce7f0[_0x2c03d6(0x199)]['dataset'][_0x2c03d6(0x17b)],renderFiles();});}),document[_0xb6e4f3(0x1ac)](_0xb6e4f3(0x158))[_0xb6e4f3(0x11a)](_0x5656e0=>{const _0x29715c=_0xb6e4f3;_0x5656e0[_0x29715c(0x1b8)](_0x29715c(0x175),()=>{const _0x4bbff3=_0x29715c,_0x5c6e3c=_0x5656e0['dataset'][_0x4bbff3(0x181)];switchScheduleTab(_0x5c6e3c);});});}function getFilteredFiles(){const _0x1e8dbb=_0x194cb6,_0x5de36f=files[_0x1e8dbb(0x119)](_0x4f141e=>{const _0x55d0f2=_0x1e8dbb,_0x16da33=currentFilter===_0x55d0f2(0x165)||_0x4f141e['category']===currentFilter,_0x43dcca=currentSearch===''||_0x4f141e[_0x55d0f2(0x170)][_0x55d0f2(0x1a4)]()[_0x55d0f2(0x117)](currentSearch)||_0x4f141e['description'][_0x55d0f2(0x1a4)]()[_0x55d0f2(0x117)](currentSearch)||categoryConfig[_0x4f141e[_0x55d0f2(0x17b)]]['name'][_0x55d0f2(0x1a4)]()[_0x55d0f2(0x117)](currentSearch);return _0x16da33&&_0x43dcca;});return _0x5de36f[_0x1e8dbb(0x1af)]((_0x251d82,_0x396bb1)=>{const _0x354d16=_0x1e8dbb,_0xa617d6=categoryConfig[_0x251d82[_0x354d16(0x17b)]][_0x354d16(0x170)][_0x354d16(0x145)](),_0x3d09dd=categoryConfig[_0x396bb1[_0x354d16(0x17b)]][_0x354d16(0x170)]['toUpperCase']();if(_0xa617d6<_0x3d09dd)return-0x1;if(_0xa617d6>_0x3d09dd)return 0x1;const _0x4712c8=_0x251d82[_0x354d16(0x170)][_0x354d16(0x145)](),_0x3b874e=_0x396bb1[_0x354d16(0x170)][_0x354d16(0x145)]();if(_0x4712c8<_0x3b874e)return-0x1;if(_0x4712c8>_0x3b874e)return 0x1;return 0x0;});}function renderFiles(){const _0x837e15=_0x194cb6,_0x560fd1=getFilteredFiles();if(_0x560fd1[_0x837e15(0x1a1)]===0x0){filesGrid[_0x837e15(0x15c)]=_0x837e15(0x167);return;}filesGrid[_0x837e15(0x15c)]=_0x560fd1['map'](_0x20f60c=>_0x837e15(0xe9)+_0x20f60c['category']+_0x837e15(0x10a)+_0x20f60c[_0x837e15(0x101)]+_0x837e15(0x16b)+_0x20f60c[_0x837e15(0x170)]+_0x837e15(0x159)+categoryConfig[_0x20f60c[_0x837e15(0x17b)]][_0x837e15(0x170)]+_0x837e15(0x140)+_0x20f60c[_0x837e15(0x162)]+_0x837e15(0x144)+_0x20f60c[_0x837e15(0x163)]+_0x837e15(0x1a8))[_0x837e15(0x130)]('');}function _0x52ed(){const _0x15b4c4=['animation','addEventListener','#4fd1c7','keydown','fas\x20fa-brain','innerHeight','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-card\x22\x20data-category=\x22','3-503','Ted','info','Jie','dragstart','11894260nyUCZT','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ','</div>','14:30-16:30','Comprehensive\x20guide\x20for\x20annual\x20tax\x20settlement\x20procedures\x20and\x20requirements.','Michelle\x20Liang','day','Professional\x20Learning\x20Policy','Guidelines\x20for\x20maintaining\x20and\x20organizing\x20the\x20physical\x20learning\x20environment.','16:30-17:00','Tax\x20&\x20Finance','Tea\x20Break','appendChild','Presentation\x20deck\x20explaining\x20Competency-Based\x20Learning\x20(CBL)\x20implementation\x20at\x20Mingwan.','15:00-16:30','warn','setItem','success','icon','value','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043557amSD','shiftKey','fas\x20fa-building','events','Science\x20of\x20Learning','open','createElement','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22','parse','Rooms\x202-201,\x202-202,\x202-203,\x202-204','Wednesday\x20Aug\x2020','11:30-12:15','ctrlKey','1568162UEnFgl','9:15-10:45','Thursday\x20Aug\x2021','Safeguard\x20Training','Chundan','Introduction\x20and\x20Guide\x20for\x20Individual\x20Income\x20Tax\x20Annual\x20Settlement','Contact\x20information\x20and\x20details\x20for\x20non-academic\x20staff\x20members\x20across\x20campus\x20services.','includes','Quick\x20reference\x20guide\x20for\x20creating\x20and\x20organizing\x20unit\x20plans\x20effectively.','filter','forEach','Monday\x20Aug\x2018','kindergarten','Social\x20Emotional\x20Learning\x20&\x20Second\x20Step','head','First\x20Aid\x20Training\x20(External\x20Provider)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','4103766ICCzEx','classList','stringify','11:15-12:15','fas\x20fa-map-marked-alt','cssText','TBD','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk','3-504','Resources\x20and\x20materials\x20related\x20to\x20the\x20Science\x20of\x20Learning.','<div\x20class=\x22event-presenter\x22><i\x20class=\x22fas\x20fa-users\x22></i>\x20','8:30-8:45','1801062ejbvhp','Early\x20English\x20Literacy\x20Program\x20K-G3','Behaviour\x20Policy\x20&\x20Faculty\x20Handbook','join','selectstart','Teachers','outerWidth','10:30-11:30','map','fas\x20fa-clipboard-check','apply','getElementById','undefined','#f6ad55','14:15-14:30','13:15-14:45','add','\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20','activity','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-description\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Break','fas\x20fa-list-check','<div\x20style=\x22text-align:center;margin-top:200px;font-size:24px;color:#ff0000;\x22>访问被拒绝</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22','toUpperCase','2796220fIRqmk','Understanding\x20CBL\x20and\x20its\x20place\x20at\x20Mingwan','preventDefault','input','\x0a\x20\x20\x20\x20@keyframes\x20slideInRight\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20from\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20to\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(0);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20@keyframes\x20slideOutRight\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20from\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(0);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20to\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a','13:15-14:15','debug','fas\x20fa-address-book','Non-Academic\x20Staff\x20Contact\x20Information','innerWidth','8:45-9:15','tax','contextmenu','Comprehensive\x20induction\x20program\x20materials\x20for\x20new\x20staff\x20members\x20joining\x20in\x202025.','isArray','1575560IFPJot','Mingwan\x20Parents\x20in\x20Focus:\x20Demands,\x20Expectations,\x20and\x20Collaboration\x20Pathways','presenters','.tab-btn','</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22file-category\x22>','prototype','10:45-11:15','innerHTML','div','Curriculum','14:45-15:00','Activity\x20and\x20Project\x20Planning','OPF:\x20One\x20Planet\x20Foundation','description','url','10:15-10:30','all','12:15-13:15','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22grid-column:\x201\x20/\x20-1;\x20text-align:\x20center;\x20padding:\x2040px;\x20color:\x20#718096;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22\x20style=\x22font-size:\x203rem;\x20margin-bottom:\x2020px;\x20opacity:\x200.5;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>No\x20files\x20found</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Try\x20adjusting\x20your\x20search\x20terms\x20or\x20filters.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','Language\x20Policy\x20in\x20Practice','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043564dG0E','Michelle\x20Ip','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>','fas\x20fa-folder','log','15:30-17:00','location','name','Tengfei','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22day-schedule\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22day-title\x22>','Physical\x20Environment\x20Guidelines','style','click','.schedule-pane','Arrival','Divisional\x20Checkout','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755049574hqmR','13:15-17:00','category','.filter-btn','keyCode','Rose','some','https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7','schedule','13:15\x20-17:00','Touchbase','<div\x20class=\x22event-location\x22><i\x20class=\x22fas\x20fa-map-marker-alt\x22></i>\x20','curriculum','Information\x20about\x20various\x20campus\x20services\x20available\x20to\x20staff\x20and\x20students.','getItem','body','Comprehensive\x20policy\x20document\x20outlining\x20professional\x20learning\x20requirements\x20and\x20guidelines\x20for\x20staff\x20development.','<div\x20class=\x22event-meta\x22>','textContent','G4-G7\x20Lesson\x20Planning','error','Touchbase\x20-\x20Guess\x20Who\x20Baby\x20Photos','presenter','-pane','teacherFiles','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Student\x20Support\x20(Learning,\x20Language,\x20Counselling\x20MTSS)','Nurse','Sign\x20up\x20Tech\x20Workshops','2324LUzYHn',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2015px\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x205px\x2015px\x20rgba(0,0,0,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201001;\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20slideInRight\x200.3s\x20ease;\x0a\x20\x20\x20\x20','g1-g9','target','HR\x20&\x20Training','time','fas\x20fa-user-plus','14:15-15:30','fas\x20fa-calculator','toggle','dataset','length','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','campus','toLowerCase','active','Tuesday\x20Aug\x2019','Competency\x20Rubrics\x20and\x20Indicator','\x22\x20target=\x22_blank\x22\x20class=\x22btn\x20btn-primary\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-external-link-alt\x22></i>\x20Open\x20File\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','fas\x20fa-presentation-screen','291VraKpL','10:30-12:15','querySelectorAll','9:15-10:15','clear','sort','4LIDGiW','Additional\x20Parent\x20Communication\x20Needs','Vera','Friday\x20Aug\x2022','push','Lunch','Adaptive\x20Schools'];_0x52ed=function(){return _0x15b4c4;};return _0x52ed();}function renderScheduleData(_0x51438c){const _0x2ae917=_0x194cb6;return _0x51438c[_0x2ae917(0x135)](_0x1c52ba=>{const _0x2c7064=_0x2ae917,_0x41da6d=_0x1c52ba[_0x2c7064(0x106)][_0x2c7064(0x135)](_0x201a3e=>{const _0x347cb6=_0x2c7064;let _0x1c921e='';if(_0x201a3e['presenter'])_0x1c921e+='<div\x20class=\x22event-presenter\x22><i\x20class=\x22fas\x20fa-user\x22></i>\x20'+_0x201a3e[_0x347cb6(0x18f)]+_0x347cb6(0xf1);else{if(_0x201a3e['presenters']){const _0x5dd24a=Array[_0x347cb6(0x154)](_0x201a3e[_0x347cb6(0x157)])?_0x201a3e[_0x347cb6(0x157)][_0x347cb6(0x130)](',\x20'):_0x201a3e['presenters'];_0x1c921e+=_0x347cb6(0x12b)+_0x5dd24a+_0x347cb6(0xf1);}}return _0x201a3e[_0x347cb6(0x16f)]&&(_0x1c921e+=_0x347cb6(0x184)+_0x201a3e['location']+'</div>'),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22event-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22event-time\x22>'+_0x201a3e[_0x347cb6(0x19b)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22event-details\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22event-activity\x22>'+_0x201a3e[_0x347cb6(0x13f)]+_0x347cb6(0x192)+(_0x1c921e?_0x347cb6(0x18a)+_0x1c921e+_0x347cb6(0xf1):'')+_0x347cb6(0x120);})[_0x2c7064(0x130)]('');return _0x2c7064(0x172)+_0x1c52ba[_0x2c7064(0xf5)]+_0x2c7064(0x1a2)+_0x41da6d+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';})[_0x2ae917(0x130)]('');}function renderSchedule(_0x1a00df){const _0x3bf0bb=_0x194cb6,_0x312f26=document['getElementById'](_0x1a00df+_0x3bf0bb(0x190));if(!_0x312f26)return;const _0x3291b2=_0x1a00df==='g1-g9'?weeklySchedule:kindergartenSchedule;_0x312f26[_0x3bf0bb(0x15c)]=renderScheduleData(_0x3291b2);}function switchScheduleTab(_0x3becc1){const _0x59edc8=_0x194cb6;document[_0x59edc8(0x1ac)]('.tab-btn')[_0x59edc8(0x11a)](_0x22f764=>{const _0x2c7c7a=_0x59edc8;_0x22f764['classList'][_0x2c7c7a(0x19f)](_0x2c7c7a(0x1a5),_0x22f764[_0x2c7c7a(0x1a0)][_0x2c7c7a(0x181)]===_0x3becc1);}),document[_0x59edc8(0x1ac)](_0x59edc8(0x176))[_0x59edc8(0x11a)](_0x3593a2=>{const _0x27bf69=_0x59edc8;_0x3593a2[_0x27bf69(0x122)][_0x27bf69(0x19f)](_0x27bf69(0x1a5),_0x3593a2['id']===_0x3becc1+'-pane');});}function setupProtection(){const _0x25ae66=_0x194cb6;document[_0x25ae66(0x1b8)](_0x25ae66(0x152),function(_0x3b47dc){const _0x8d6fb9=_0x25ae66;return _0x3b47dc[_0x8d6fb9(0x148)](),![];});let _0x49c705=0x0;document[_0x25ae66(0x1b8)]('touchend',function(_0x2ae8ce){const _0x950587=_0x25ae66,_0x54d054=new Date()['getTime']();_0x54d054-_0x49c705<=0x12c&&_0x2ae8ce[_0x950587(0x148)](),_0x49c705=_0x54d054;},![]),document['addEventListener'](_0x25ae66(0x131),function(_0xee9c02){const _0x3f4e7c=_0x25ae66;return _0xee9c02[_0x3f4e7c(0x148)](),![];}),document[_0x25ae66(0x1b8)](_0x25ae66(0xee),function(_0x1e12a2){const _0xd178df=_0x25ae66;return _0x1e12a2[_0xd178df(0x148)](),![];}),document['addEventListener'](_0x25ae66(0xe6),function(_0x525eac){const _0x4fca3a=_0x25ae66;if(_0x525eac[_0x4fca3a(0x17d)]===0x7b)return _0x525eac['preventDefault'](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac['shiftKey']&&_0x525eac['keyCode']===0x49)return _0x525eac['preventDefault'](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac[_0x4fca3a(0x104)]&&_0x525eac[_0x4fca3a(0x17d)]===0x43)return _0x525eac[_0x4fca3a(0x148)](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac['keyCode']===0x55)return _0x525eac['preventDefault'](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac['keyCode']===0x53)return _0x525eac[_0x4fca3a(0x148)](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac['keyCode']===0x41)return _0x525eac[_0x4fca3a(0x148)](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac[_0x4fca3a(0x17d)]===0x43)return _0x525eac[_0x4fca3a(0x148)](),![];if(_0x525eac[_0x4fca3a(0x10f)]&&_0x525eac[_0x4fca3a(0x17d)]===0x56)return _0x525eac[_0x4fca3a(0x148)](),![];if(_0x525eac['ctrlKey']&&_0x525eac[_0x4fca3a(0x17d)]===0x58)return _0x525eac[_0x4fca3a(0x148)](),![];}),document[_0x25ae66(0x1b8)]('selectstart',function(_0x43c0f3){const _0x216d74=_0x25ae66;return _0x43c0f3[_0x216d74(0x148)](),![];}),document[_0x25ae66(0x1b8)]('dragstart',function(_0x136c48){const _0x189e6a=_0x25ae66;return _0x136c48[_0x189e6a(0x148)](),![];});let _0x50862d={'open':![],'orientation':null};const _0x3a3ce5=0xa0;setInterval(function(){const _0x1a525d=_0x25ae66;window['outerHeight']-window[_0x1a525d(0xe8)]>_0x3a3ce5||window[_0x1a525d(0x133)]-window[_0x1a525d(0x14f)]>_0x3a3ce5?!_0x50862d['open']&&(_0x50862d[_0x1a525d(0x108)]=!![],console['clear'](),document[_0x1a525d(0x188)][_0x1a525d(0x15c)]=_0x1a525d(0x143)):_0x50862d['open']=![];},0x1f4),typeof console!==_0x25ae66(0x139)&&(console[_0x25ae66(0x1ae)](),console[_0x25ae66(0x16d)]=function(){},console[_0x25ae66(0xfe)]=function(){},console[_0x25ae66(0x18d)]=function(){},console[_0x25ae66(0xec)]=function(){},console[_0x25ae66(0x14c)]=function(){});}function showNotification(_0x5c08b3,_0x4439c1=_0x194cb6(0xec)){const _0x503af2=_0x194cb6,_0x4a9dca=document[_0x503af2(0x109)](_0x503af2(0x15d));_0x4a9dca[_0x503af2(0x174)][_0x503af2(0x126)]=_0x503af2(0x13e)+(_0x4439c1===_0x503af2(0x100)?'#48bb78':'#667eea')+_0x503af2(0x197),_0x4a9dca[_0x503af2(0x18b)]=_0x5c08b3,document['body'][_0x503af2(0xfb)](_0x4a9dca),setTimeout(()=>{const _0x154b0a=_0x503af2;_0x4a9dca[_0x154b0a(0x174)][_0x154b0a(0x1b7)]='slideOutRight\x200.3s\x20ease',setTimeout(()=>{const _0x13f03f=_0x154b0a;document[_0x13f03f(0x188)]['removeChild'](_0x4a9dca);},0x12c);},0xbb8);}const style=document[_0x194cb6(0x109)](_0x194cb6(0x174));style[_0x194cb6(0x18b)]=_0x194cb6(0x14a),document[_0x194cb6(0x11e)][_0x194cb6(0xfb)](style),document[_0x194cb6(0x1b8)]('DOMContentLoaded',init);function saveFiles(){const _0x276260=_0x194cb6;localStorage[_0x276260(0xff)](_0x276260(0x191),JSON[_0x276260(0x123)](files));}function loadFiles(){const _0x1df76a=_0x194cb6,_0x5a7aee=localStorage[_0x1df76a(0x187)]('teacherFiles');if(_0x5a7aee){const _0x3d2793=JSON[_0x1df76a(0x10b)](_0x5a7aee),_0x702aa1=_0x3d2793[_0x1df76a(0x17f)](_0x481fbb=>_0x481fbb['id']===0xb);}}loadFiles(),saveFiles();const originalPush=files[_0x194cb6(0x1b4)];files[_0x194cb6(0x1b4)]=function(..._0x4a6eda){const _0x3056ca=_0x194cb6,_0x2a16ee=originalPush[_0x3056ca(0x137)](this,_0x4a6eda);return saveFiles(),_0x2a16ee;};const originalFilter=Array[_0x194cb6(0x15a)][_0x194cb6(0x119)];Array['prototype'][_0x194cb6(0x119)]=function(..._0x1d978b){const _0x2a26e3=_0x194cb6,_0x5d1ee2=originalFilter[_0x2a26e3(0x137)](this,_0x1d978b);return this===files&&saveFiles(),_0x5d1ee2;};
+// 文件数据
+let files = [
+    {
+        id: 1,
+        name: 'Introduction and Guide for Individual Income Tax Annual Settlement',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
+        category: 'tax',
+        description: 'Comprehensive guide for annual tax settlement procedures and requirements.',
+        icon: 'fas fa-calculator'
+    },
+    {
+        id: 2,
+        name: 'Understanding CBL and its place at Mingwan',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043557amSD',
+        category: 'curriculum',
+        description: 'Presentation deck explaining Competency-Based Learning (CBL) implementation at Mingwan.',
+        icon: 'fas fa-brain'
+    },
+    {
+        id: 3,
+        name: 'Competency Rubrics and Indicator',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
+        category: 'curriculum',
+        description: 'Assessment rubrics and competency indicators for educational evaluation.',
+        icon: 'fas fa-clipboard-check'
+    },
+    {
+        id: 4,
+        name: '2025 HR Induction for New Staffs',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
+        category: 'hr',
+        description: 'Comprehensive induction program materials for new staff members joining in 2025.',
+        icon: 'fas fa-user-plus'
+    },
+    {
+        id: 5,
+        name: 'Campus Service',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755049574hqmR',
+        category: 'campus',
+        description: 'Information about various campus services available to staff and students.',
+        icon: 'fas fa-building'
+    },
+    {
+        id: 6,
+        name: 'CBL Content',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.7550532856PNg',
+        category: 'curriculum',
+        description: 'Complete folder containing all Competency-Based Learning content and resources.',
+        icon: 'fas fa-folder'
+    },
+    {
+        id: 7,
+        name: 'Non-Academic Staff Contact Information',
+        url: 'https://doc.weixin.qq.com/doc/w3_AZEAQwZ-AKECNSFwEqJqWS26L4J6K?scode=AIkA9Qf4AHYUAGz6wMAZEAQwZ-AKE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
+        category: 'campus',
+        description: 'Contact information and details for non-academic staff members across campus services.',
+        icon: 'fas fa-address-book'
+    },
+    {
+        id: 8,
+        name: 'Unit Planner Cheatsheet',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7',
+        category: 'curriculum',
+        description: 'Quick reference guide for creating and organizing unit plans effectively.',
+        icon: 'fas fa-list-check'
+    },
+    {
+        id: 9,
+        name: 'Physical Environment Guidelines',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043564dG0E',
+        category: 'campus',
+        description: 'Guidelines for maintaining and organizing the physical learning environment.',
+        icon: 'fas fa-map-marked-alt'
+    },
+    {
+        id: 10,
+        name: 'Professional Learning Policy',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755163566020X',
+        category: 'hr',
+        description: 'Comprehensive policy document outlining professional learning requirements and guidelines for staff development.',
+        icon: 'fas fa-graduation-cap'
+    },
+    {
+        id: 11,
+        name: 'Science of Learning',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYPxngRov',
+        category: 'curriculum',
+        description: 'Resources and materials related to the Science of Learning.',
+        icon: 'fas fa-brain'
+    },
+    {
+        id: 12,
+        name: 'The First Week of School',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.755219635qEib',
+        category: 'campus',
+        description: 'Resources for the first week of school.',
+        icon: 'fas fa-school'
+    },
+    {
+        id: 13,
+        name: 'Medical Insurance Orientation',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYaFskDY9',
+        category: 'hr',
+        description: 'Information about the medical insurance plan.',
+        icon: 'fas fa-medkit'
+    }
+];
+
+// 周计划数据
+const weeklySchedule = [
+    {
+        day: 'Monday Aug 18',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Ted' },
+            { time: '9:15-10:45', activity: 'Social Emotional Learning & Second Step', presenters: ['Jie', 'Jie', 'Rose'], location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '11:15-12:15', activity: 'Safeguard Training', presenter: 'Ted', location: '3-503' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-14:15', activity: 'Behaviour Policy & Faculty Handbook', presenter: 'Ted', location: '3-503' },
+            { time: '14:15-14:30', activity: 'Break' },
+            { time: '14:30-16:00', activity: 'Activity and Project Planning', location: '3-503' },
+            { time: '16:30-17:00', activity: 'Divisional Checkout' }
+        ]
+    },
+    {
+        day: 'Tuesday Aug 19',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Michelle Liang' },
+            { time: '9:15-10:45', activity: 'Safeguard Training', presenter: 'Ted', location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '11:15-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-14:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenter: 'Michelle Ip', location: '3-503' },
+            { time: '14:45-15:00', activity: 'Break' },
+            { time: '15:00-16:30', activity: 'First Aid Training (External Provider)', presenters: ['Michelle Liang', 'Rachel'], location: '3-504' },
+            { time: '16:30-17:00', activity: 'Divisional Checkout' }
+        ]
+    },
+    {
+        day: 'Wednesday Aug 20',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Vera' },
+            { time: '9:15-10:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenters: ['Tengfei', 'Chundan'], location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '10:30-11:30', activity: 'Mingwan Parents in Focus: Demands, Expectations, and Collaboration Pathways', presenter: 'Michelle Liang', location: '3-503' },
+            { time: '11:30-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Early English Literacy Program K-G3', presenter: 'Jie', location: '3-501A' },
+            { time: '14:15-15:30', activity: 'Disease, Safety, and Accident Report Procedure', presenters: ['Jie', 'Nurse'] },
+            { time: '15:30-17:00', activity: 'Lesson Planning / Classroom Set-up', presenters: ['Teachers'] }
+        ]
+    },
+    {
+        day: 'Thursday Aug 21',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase' },
+            { time: '9:15-10:15', activity: 'Adaptive Schools' },
+            { time: '10:15-10:30', activity: 'Tea Break' },
+            { time: '10:30-12:15', activity: 'Adaptive Schools' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Adaptive Schools' }
+        ]
+    },
+    {
+        day: 'Friday Aug 22',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase' },
+            { time: '9:15-10:15', activity: 'Adaptive Schools' },
+            { time: '10:15-10:30', activity: 'Tea Break' },
+            { time: '10:30-12:15', activity: 'Adaptive Schools' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Adaptive Schools' }
+        ]
+    }
+];
+
+const kindergartenSchedule = [
+    {
+        day: 'Monday Aug 18',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Ted' },
+            { time: '9:15-10:45', activity: 'Social Emotional Learning & Second Step', presenters: ['Jie', 'Jie', 'Ted'], location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '11:15-12:15', activity: 'Language Policy in Practice', presenter: 'Rose', location: '3-503' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-14:15', activity: 'Behaviour Policy & Faculty Handbook', presenter: 'Rose', location: '3-503' },
+            { time: '14:15-14:30', activity: 'Break' },
+            { time: '14:30-16:00', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenter: 'Michelle Ip', location: '3-501A' },
+            { time: '16:30-17:00', activity: 'Divisional Checkout' }
+        ]
+    },
+    {
+        day: 'Tuesday Aug 19',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Michelle Liang' },
+            { time: '9:15-10:45', activity: 'Safeguard Training', presenter: 'Ted', location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '11:15-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-14:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenter: 'Michelle Ip', location: '3-503' },
+            { time: '14:45-15:00', activity: 'Break' },
+            { time: '15:00-16:30', activity: 'First Aid Training (External Provider)', presenters: ['Michelle Liang', 'Rachel'], location: 'TBD' },
+            { time: '16:30-17:00', activity: 'Divisional Checkout' }
+        ]
+    },
+    {
+        day: 'Wednesday Aug 20',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Vera' },
+            { time: '9:15-10:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenters: ['Tengfei', 'Chundan'], location: '3-503' },
+            { time: '10:45-11:15', activity: 'Tea Break' },
+            { time: '10:30-11:30', activity: 'Mingwan Parents in Focus: Demands, Expectations, and Collaboration Pathways', presenter: 'Michelle Liang', location: '3-503' },
+            { time: '11:30-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Early English Literacy Program K-G3', presenter: 'Jie', location: '3-501A' },
+            { time: '14:15-15:30', activity: 'Disease, Safety, and Accident Report Procedure', presenters: ['Jie', 'Nurse'] },
+            { time: '15:30-17:00', activity: 'Lesson Planning / Classroom Set-up', presenters: ['Teachers'] }
+        ]
+    },
+    {
+        day: 'Thursday Aug 21',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase' },
+            { time: '9:15-10:15', activity: 'Adaptive Schools' },
+            { time: '10:15-10:30', activity: 'Tea Break' },
+            { time: '10:30-12:15', activity: 'Adaptive Schools' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Adaptive Schools' }
+        ]
+    },
+    {
+        day: 'Friday Aug 22',
+        events: [
+            { time: '8:30-8:45', activity: 'Arrival' },
+            { time: '8:45-9:15', activity: 'Touchbase' },
+            { time: '9:15-10:15', activity: 'Adaptive Schools' },
+            { time: '10:15-10:30', activity: 'Tea Break' },
+            { time: '10:30-12:15', activity: 'Adaptive Schools' },
+            { time: '12:15-13:15', activity: 'Lunch' },
+            { time: '13:15-17:00', activity: 'Adaptive Schools' }
+        ]
+    }
+];
+
+// 分类配置
+const categoryConfig = {
+    'tax': { name: 'Tax & Finance', color: '#f6ad55' },
+    'curriculum': { name: 'Curriculum', color: '#68d391' },
+    'hr': { name: 'HR & Training', color: '#9f7aea' },
+    'campus': { name: 'Campus Services', color: '#4fd1c7' }
+};
+
+// DOM 元素
+const filesGrid = document.getElementById('filesGrid');
+const searchInput = document.getElementById('searchInput');
+const filterButtons = document.querySelectorAll('.filter-btn');
+
+let currentFilter = 'all';
+let currentSearch = '';
+
+// 初始化
+function init() {
+    renderFiles();
+    renderSchedule('kindergarten');
+    renderSchedule('g1-g9');
+    setupEventListeners();
+}
+
+// 设置事件监听器
+function setupEventListeners() {
+    // 搜索功能
+    searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase();
+        renderFiles();
+    });
+
+    // 过滤按钮
+    filterButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.category;
+            renderFiles();
+        });
+    });
+
+    // 标签页切换
+    document.querySelectorAll('.tab-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const scheduleType = button.dataset.schedule;
+            switchScheduleTab(scheduleType);
+        });
+    });
+}
+
+// 获取过滤后的文件
+function getFilteredFiles() {
+    const filtered = files.filter(file => {
+        const matchesFilter = currentFilter === 'all' || file.category === currentFilter;
+        const matchesSearch = currentSearch === '' || 
+            file.name.toLowerCase().includes(currentSearch) ||
+            file.description.toLowerCase().includes(currentSearch) ||
+            categoryConfig[file.category].name.toLowerCase().includes(currentSearch);
+        
+        return matchesFilter && matchesSearch;
+    });
+
+    // 排序：按分类名称，然后按文件名
+    return filtered.sort((a, b) => {
+        const categoryA = categoryConfig[a.category].name.toUpperCase();
+        const categoryB = categoryConfig[b.category].name.toUpperCase();
+        
+        if (categoryA < categoryB) return -1;
+        if (categoryA > categoryB) return 1;
+        
+        const nameA = a.name.toUpperCase();
+        const nameB = b.name.toUpperCase();
+        
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0;
+    });
+}
+
+// 渲染文件列表
+function renderFiles() {
+    const filteredFiles = getFilteredFiles();
+    
+    if (filteredFiles.length === 0) {
+        filesGrid.innerHTML = `
+            <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: #718096;">
+                <i class="fas fa-search" style="font-size: 3rem; margin-bottom: 20px; opacity: 0.5;"></i>
+                <h3>No files found</h3>
+                <p>Try adjusting your search terms or filters.</p>
+            </div>
+        `;
+        return;
+    }
+
+    filesGrid.innerHTML = filteredFiles.map(file => `
+        <div class="file-card" data-category="${file.category}">
+            <div class="file-header">
+                <div class="file-icon">
+                    <i class="${file.icon}"></i>
+                </div>
+                <div class="file-info">
+                    <h3>${file.name}</h3>
+                    <span class="file-category">${categoryConfig[file.category].name}</span>
+                </div>
+            </div>
+            <div class="file-description">
+                ${file.description}
+            </div>
+            <div class="file-actions">
+                <a href="${file.url}" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-external-link-alt"></i> Open File
+                </a>
+            </div>
+        </div>
+    `).join('');
+}
+
+// 渲染计划数据
+function renderScheduleData(scheduleData) {
+    return scheduleData.map(day => {
+        const eventsHtml = day.events.map(event => {
+            let presenterHtml = '';
+            
+            if (event.presenter) {
+                presenterHtml += `<div class="event-presenter"><i class="fas fa-user"></i> ${event.presenter}</div>`;
+            } else if (event.presenters) {
+                const presenters = Array.isArray(event.presenters) ? event.presenters.join(', ') : event.presenters;
+                presenterHtml += `<div class="event-presenter"><i class="fas fa-users"></i> ${presenters}</div>`;
+            }
+            
+            if (event.location) {
+                presenterHtml += `<div class="event-location"><i class="fas fa-map-marker-alt"></i> ${event.location}</div>`;
+            }
+            
+            return `
+                <div class="event-item">
+                    <div class="event-time">${event.time}</div>
+                    <div class="event-details">
+                        <div class="event-activity">${event.activity}</div>
+                        ${presenterHtml ? `<div class="event-meta">${presenterHtml}</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        return `
+            <div class="day-schedule">
+                <div class="day-title">${day.day}</div>
+                ${eventsHtml}
+            </div>
+        `;
+    }).join('');
+}
+
+// 渲染计划
+function renderSchedule(scheduleType) {
+    const pane = document.getElementById(scheduleType + '-pane');
+    if (!pane) return;
+    
+    const scheduleData = scheduleType === 'g1-g9' ? weeklySchedule : kindergartenSchedule;
+    pane.innerHTML = renderScheduleData(scheduleData);
+}
+
+// 切换计划标签页
+function switchScheduleTab(scheduleType) {
+    // 更新按钮状态
+    document.querySelectorAll('.tab-btn').forEach(button => {
+        button.classList.toggle('active', button.dataset.schedule === scheduleType);
+    });
+    
+    // 更新内容面板
+    document.querySelectorAll('.schedule-pane').forEach(pane => {
+        pane.classList.toggle('active', pane.id === scheduleType + '-pane');
+    });
+}
+
+// 显示通知
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: ${type === 'success' ? '#48bb78' : '#667eea'};
+        color: white;
+        padding: 15px 20px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        z-index: 1001;
+        animation: slideInRight 0.3s ease;
+    `;
+    notification.textContent = message;
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+        notification.style.animation = 'slideOutRight 0.3s ease';
+        setTimeout(() => {
+            document.body.removeChild(notification);
+        }, 300);
+    }, 3000);
+}
+
+// 添加样式
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes slideInRight {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes slideOutRight {
+        from {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        to {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(style);
+
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', init);
