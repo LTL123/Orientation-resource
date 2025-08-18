@@ -4,7 +4,7 @@ let files = [
         id: 1,
         name: 'Introduction and Guide for Individual Income Tax Annual Settlement',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
-        category: 'tax',
+        category: 'hr_admin',
         description: 'Comprehensive guide for annual tax settlement procedures and requirements.',
         icon: 'fas fa-calculator'
     },
@@ -12,7 +12,7 @@ let files = [
         id: 2,
         name: 'Understanding CBL and its place at Mingwan',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043557amSD',
-        category: 'curriculum',
+        category: 'teaching',
         description: 'Presentation deck explaining Competency-Based Learning (CBL) implementation at Mingwan.',
         icon: 'fas fa-brain'
     },
@@ -20,7 +20,7 @@ let files = [
         id: 3,
         name: 'Competency Rubrics and Indicator',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
-        category: 'curriculum',
+        category: 'teaching',
         description: 'Assessment rubrics and competency indicators for educational evaluation.',
         icon: 'fas fa-clipboard-check'
     },
@@ -28,7 +28,7 @@ let files = [
         id: 4,
         name: '2025 HR Induction for New Staffs',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
-        category: 'hr',
+        category: 'hr_admin',
         description: 'Comprehensive induction program materials for new staff members joining in 2025.',
         icon: 'fas fa-user-plus'
     },
@@ -44,7 +44,7 @@ let files = [
         id: 6,
         name: 'CBL Content',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.7550532856PNg',
-        category: 'curriculum',
+        category: 'teaching',
         description: 'Complete folder containing all Competency-Based Learning content and resources.',
         icon: 'fas fa-folder'
     },
@@ -60,7 +60,7 @@ let files = [
         id: 8,
         name: 'Unit Planner Cheatsheet',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7',
-        category: 'curriculum',
+        category: 'teaching',
         description: 'Quick reference guide for creating and organizing unit plans effectively.',
         icon: 'fas fa-list-check'
     },
@@ -76,7 +76,7 @@ let files = [
         id: 10,
         name: 'Professional Learning Policy',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755163566020X',
-        category: 'hr',
+        category: 'policies',
         description: 'Comprehensive policy document outlining professional learning requirements and guidelines for staff development.',
         icon: 'fas fa-graduation-cap'
     },
@@ -84,7 +84,7 @@ let files = [
         id: 11,
         name: 'Science of Learning',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYPxngRov',
-        category: 'curriculum',
+        category: 'teaching',
         description: 'Resources and materials related to the Science of Learning.',
         icon: 'fas fa-brain'
     },
@@ -98,28 +98,28 @@ let files = [
     },
     {
         id: 13,
-        name: 'Medical Insurance Orientation',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYaFskDY9',
-        category: 'hr',
-        description: 'Information about the medical insurance plan.',
-        icon: 'fas fa-medkit'
+        name: 'Mingwan Safeguarding',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755480092HQcy',
+        category: 'policies',
+        description: 'Comprehensive safeguarding policies and procedures to ensure student and staff safety at Mingwan.',
+        icon: 'fas fa-shield-alt'
     },
-     {
-                        id: 14,
-                        name: 'Tiered Behavioral Infractions and Responses Chart',
-                        url: 'https://doc.weixin.qq.com/doc/w3_AY4AqQYpAJESGxkbTKT8xR8ydRCCm?scode=AIkA9Qf4AHYaLaM87jAY4AqQYpAJE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
-                        category: 'campus',
-                        description: 'A chart detailing behavioral infractions and the corresponding responses.',
-                        icon: 'fas fa-gavel'
-                    },
-                    {
-                        id: 15,
-                        name: 'Mingwan School AI Policy',
-                        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7552454648MF6',
-                        category: 'campus',
-                        description: 'The official school policy on the use of Artificial Intelligence.',
-                        icon: 'fas fa-robot'
-                    }
+    {
+        id: 14,
+        name: 'Mingwan Behavior Policy',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755477699kCh4',
+        category: 'policies',
+        description: 'Official behavior policy and guidelines for maintaining positive learning environment at Mingwan.',
+        icon: 'fas fa-handshake'
+    },
+    {
+        id: 15,
+        name: 'Second Step',
+        url: 'https://www.secondstep.org/',
+        category: 'teaching',
+        description: 'Digital curriculum for social-emotional learning, helping students develop human skills for academic achievement and personal growth.',
+        icon: 'fas fa-heart'
+    }
 ];
 
 // 周计划数据
@@ -192,6 +192,7 @@ const G1_9Schedule = [
         ]
     }
 ];
+
 const kindergartenSchedule = [
     {
         day: 'Monday Aug 18',
@@ -263,4 +264,222 @@ const kindergartenSchedule = [
         ]
     }
 ];
+
+// 主要功能函数
+function showTab(tabName) {
+    // 隐藏所有标签内容
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    
+    // 移除所有导航标签的活动状态
+    document.querySelectorAll('.nav-tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    
+    // 显示选中的标签
+    document.getElementById(tabName).classList.add('active');
+    event.target.classList.add('active');
+}
+
+function showSchedule(scheduleType) {
+    // 隐藏所有时间表内容
+    document.querySelectorAll('.schedule-content').forEach(content => {
+        content.classList.remove('active');
+    });
+    
+    // 移除所有时间表标签的活动状态
+    document.querySelectorAll('.schedule-tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    
+    // 显示选中的时间表
+    if (scheduleType === 'G1-9 Schedule') {
+        document.getElementById('G1_9Schedule').classList.add('active');
+    } else {
+        document.getElementById('kindergartenSchedule').classList.add('active');
+    }
+    event.target.classList.add('active');
+}
+
+// 资源过滤和搜索
+let currentSearchTerm = '';
+let currentCategory = 'all';
+
+function searchResources(searchTerm) {
+    currentSearchTerm = searchTerm.toLowerCase();
+    applyFilters();
+}
+
+function filterResources(category) {
+    // 移除所有过滤按钮的活动状态
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // 为点击的按钮添加活动状态
+    event.target.classList.add('active');
+    
+    currentCategory = category;
+    applyFilters();
+}
+
+function applyFilters() {
+    const grid = document.getElementById('resourcesGrid');
+    
+    // 根据类别和搜索词过滤文件
+    let filteredFiles = currentCategory === 'all' ? files : files.filter(file => file.category === currentCategory);
+    
+    if (currentSearchTerm) {
+        filteredFiles = filteredFiles.filter(file => 
+            file.name.toLowerCase().includes(currentSearchTerm) || 
+            file.description.toLowerCase().includes(currentSearchTerm)
+        );
+    }
+    
+    if (filteredFiles.length === 0) {
+        grid.innerHTML = `
+            <div class="no-results">
+                <i class="fas fa-search"></i>
+                <h3>No resources found</h3>
+                <p>Try adjusting your search terms or category filter.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    // 清空并重新填充网格
+    grid.innerHTML = '';
+    filteredFiles.forEach(file => {
+        const card = document.createElement('div');
+        card.className = 'resource-card';
+        card.dataset.category = file.category;
+        
+        card.innerHTML = `
+            <div class="resource-header">
+                <i class="${file.icon} resource-icon"></i>
+                <div class="resource-title">${file.name}</div>
+                <span class="resource-category">${file.category}</span>
+            </div>
+            <div class="resource-description">${file.description}</div>
+            <a href="${file.url}" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Open Resource
+            </a>
+        `;
+        
+        grid.appendChild(card);
+    });
+}
+
+// 填充资源
+function populateResources() {
+    const grid = document.getElementById('resourcesGrid');
+    
+    if (!files || !Array.isArray(files)) {
+        grid.innerHTML = '<div class="no-results"><i class="fas fa-exclamation-circle"></i><h3>No resources available</h3><p>Resources will be loaded shortly.</p></div>';
+        return;
+    }
+    
+    grid.innerHTML = '';
+    
+    files.forEach(file => {
+        const card = document.createElement('div');
+        card.className = 'resource-card';
+        card.dataset.category = file.category;
+        
+        card.innerHTML = `
+            <div class="resource-header">
+                <i class="${file.icon} resource-icon"></i>
+                <div class="resource-title">${file.name}</div>
+                <span class="resource-category">${file.category}</span>
+            </div>
+            <div class="resource-description">${file.description}</div>
+            <a href="${file.url}" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Open Resource
+            </a>
+        `;
+        
+        grid.appendChild(card);
+    });
+}
+
+// 填充时间表
+function populateSchedules() {
+    if (typeof G1_9Schedule !== 'undefined' && Array.isArray(G1_9Schedule)) {
+        populateScheduleContent('G1_9', G1_9Schedule);
+    }
+    if (typeof kindergartenSchedule !== 'undefined' && Array.isArray(kindergartenSchedule)) {
+        populateScheduleContent('kindergarten', kindergartenSchedule);
+    }
+}
+
+function populateScheduleContent(scheduleType, scheduleData) {
+    const containerId = scheduleType === 'G1_9' ? 'G1_9Schedule' : 'kindergartenSchedule';
+    const container = document.getElementById(containerId);
+    if (!container || !scheduleData || !Array.isArray(scheduleData)) {
+        console.log(`Schedule data not available for ${containerId}`);
+        return;
+    }
+    
+    let html = '<div class="schedule-grid">';
+    
+    scheduleData.forEach(dayData => {
+        html += `
+            <div class="day-block">
+                <div class="day-header">${dayData.day}</div>
+                <div class="events-timeline">
+        `;
+        
+        dayData.events.forEach(event => {
+            const presenters = event.presenters ? event.presenters.join(', ') : (event.presenter || '');
+            const location = event.location || '';
+            
+            // 确定特殊样式的块类型
+            let blockClass = '';
+            const activity = event.activity.toLowerCase();
+            if (activity.includes('break') || activity.includes('lunch') || activity.includes('tea')) {
+                blockClass = 'break';
+            } else if (activity.includes('safeguard') || activity.includes('first aid') || activity.includes('adaptive schools')) {
+                blockClass = 'important';
+            }
+            
+            html += `
+                <div class="time-block ${blockClass}">
+                    <div class="time-slot">${event.time}</div>
+                    <div class="activity-content">
+                        <div class="activity-title">${event.activity}</div>
+                        <div class="activity-details">
+                            ${presenters ? `<span class="presenter"><i class="fas fa-user"></i>${presenters}</span>` : ''}
+                            ${location ? `<span class="location"><i class="fas fa-map-marker-alt"></i>${location}</span>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `
+                </div>
+            </div>
+        `;
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
+}
+
+// 更新最后更新日期
+function updateLastUpdated() {
+    const lastUpdateElement = document.getElementById('lastUpdateDate');
+    if (lastUpdateElement) {
+        lastUpdateElement.textContent = 'August 15, 2024';
+    }
+}
+
+// 初始化页面
+document.addEventListener('DOMContentLoaded', function() {
+    // 使用数据初始化
+    populateResources();
+    populateSchedules();
+    updateLastUpdated();
+});
 
