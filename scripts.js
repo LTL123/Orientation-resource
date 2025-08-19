@@ -81,6 +81,14 @@ let files = [
         icon: 'fas fa-map-marked-alt'
     },
     {
+        id: 18,
+        name: 'Policy - Language Model',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.7555723163aR1',
+        category: 'policies',
+        description: 'Policy on the use of language models.',
+        icon: 'fas fa-robot'
+    },
+    {
         id: 10,
         name: 'Professional Learning Policy',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755163566020X',
@@ -103,6 +111,14 @@ let files = [
         category: 'teaching',
         description: 'Digital curriculum for social-emotional learning, helping students develop human skills for academic achievement and personal growth.',
         icon: 'fas fa-heart'
+    },
+    {
+        id: 17,
+        name: 'student support team',
+        url: 'https://doc.weixin.qq.com/slide/p3_AY4AqQYpAJESG1AAdIeArRIOSkvY0?scode=AIkA9Qf4AHYHX2zyiQAY4AqQYpAJE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
+        category: 'campus',
+        description: 'Information about the student support team.',
+        icon: 'fas fa-users'
     },
     {
         id: 12,
