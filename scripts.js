@@ -1,30 +1,6 @@
 // 文件数据
 let files = [
     {
-        id: 1,
-        name: 'Introduction and Guide for Individual Income Tax Annual Settlement',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
-        category: 'hr_admin',
-        description: 'Comprehensive guide for annual tax settlement procedures and requirements.',
-        icon: 'fas fa-calculator'
-    },
-    {
-        id: 2,
-        name: 'Understanding CBL and its place at Mingwan',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043557amSD',
-        category: 'teaching',
-        description: 'Presentation deck explaining Competency-Based Learning (CBL) implementation at Mingwan.',
-        icon: 'fas fa-brain'
-    },
-    {
-        id: 3,
-        name: 'Competency Rubrics and Indicator',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
-        category: 'teaching',
-        description: 'Assessment rubrics and competency indicators for educational evaluation.',
-        icon: 'fas fa-clipboard-check'
-    },
-    {
         id: 4,
         name: '2025 HR Induction for New Staffs',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
@@ -49,20 +25,52 @@ let files = [
         icon: 'fas fa-folder'
     },
     {
+        id: 3,
+        name: 'Competency Rubrics and Indicator',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
+        category: 'teaching',
+        description: 'Assessment rubrics and competency indicators for educational evaluation.',
+        icon: 'fas fa-clipboard-check'
+    },
+    {
+        id: 16,
+        name: 'English literacy training',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.755498261fPBq',
+        category: 'teaching',
+        description: 'English literacy training materials.',
+        icon: 'fas fa-book-reader'
+    },
+    {
+        id: 1,
+        name: 'Introduction and Guide for Individual Income Tax Annual Settlement',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
+        category: 'hr_admin',
+        description: 'Comprehensive guide for annual tax settlement procedures and requirements.',
+        icon: 'fas fa-calculator'
+    },
+    {
+        id: 14,
+        name: 'Mingwan Behavior Policy',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755477699kCh4',
+        category: 'policies',
+        description: 'Official behavior policy and guidelines for maintaining positive learning environment at Mingwan.',
+        icon: 'fas fa-handshake'
+    },
+    {
+        id: 13,
+        name: 'Mingwan Safeguarding',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755480092HQcy',
+        category: 'policies',
+        description: 'Comprehensive safeguarding policies and procedures to ensure student and staff safety at Mingwan.',
+        icon: 'fas fa-shield-alt'
+    },
+    {
         id: 7,
         name: 'Non-Academic Staff Contact Information',
         url: 'https://doc.weixin.qq.com/doc/w3_AZEAQwZ-AKECNSFwEqJqWS26L4J6K?scode=AIkA9Qf4AHYUAGz6wMAZEAQwZ-AKE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
         category: 'campus',
         description: 'Contact information and details for non-academic staff members across campus services.',
         icon: 'fas fa-address-book'
-    },
-    {
-        id: 8,
-        name: 'Unit Planner Cheatsheet',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7',
-        category: 'teaching',
-        description: 'Quick reference guide for creating and organizing unit plans effectively.',
-        icon: 'fas fa-list-check'
     },
     {
         id: 9,
@@ -89,6 +97,14 @@ let files = [
         icon: 'fas fa-brain'
     },
     {
+        id: 15,
+        name: 'Second Step',
+        url: 'https://www.secondstep.org/',
+        category: 'teaching',
+        description: 'Digital curriculum for social-emotional learning, helping students develop human skills for academic achievement and personal growth.',
+        icon: 'fas fa-heart'
+    },
+    {
         id: 12,
         name: 'The First Week of School',
         url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/?folderId=i.1970326833001865.1688856590657934_d.755219635qEib',
@@ -97,28 +113,20 @@ let files = [
         icon: 'fas fa-school'
     },
     {
-        id: 13,
-        name: 'Mingwan Safeguarding',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755480092HQcy',
-        category: 'policies',
-        description: 'Comprehensive safeguarding policies and procedures to ensure student and staff safety at Mingwan.',
-        icon: 'fas fa-shield-alt'
-    },
-    {
-        id: 14,
-        name: 'Mingwan Behavior Policy',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755477699kCh4',
-        category: 'policies',
-        description: 'Official behavior policy and guidelines for maintaining positive learning environment at Mingwan.',
-        icon: 'fas fa-handshake'
-    },
-    {
-        id: 15,
-        name: 'Second Step',
-        url: 'https://www.secondstep.org/',
+        id: 2,
+        name: 'Understanding CBL and its place at Mingwan',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043557amSD',
         category: 'teaching',
-        description: 'Digital curriculum for social-emotional learning, helping students develop human skills for academic achievement and personal growth.',
-        icon: 'fas fa-heart'
+        description: 'Presentation deck explaining Competency-Based Learning (CBL) implementation at Mingwan.',
+        icon: 'fas fa-brain'
+    },
+    {
+        id: 8,
+        name: 'Unit Planner Cheatsheet',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7',
+        category: 'teaching',
+        description: 'Quick reference guide for creating and organizing unit plans effectively.',
+        icon: 'fas fa-list-check'
     }
 ];
 
