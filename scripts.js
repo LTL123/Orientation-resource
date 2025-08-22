@@ -143,6 +143,22 @@ let files = [
         category: 'teaching',
         description: 'Quick reference guide for creating and organizing unit plans effectively.',
         icon: 'fas fa-list-check'
+    },
+    {
+        id: 19,
+        name: 'THE ADAPTIVE SCHOOL Strategies & Moves for Facilitating Groups',
+        url: 'https://www.thinkingcollaborative.com/_files/ugd/6a5cc9_ed28b325ab6a4362b834f4bbf295d408.pdf',
+        category: 'teaching',
+        description: 'Strategies and moves for facilitating groups.',
+        icon: 'fas fa-users-gear'
+    },
+    {
+        id: 20,
+        name: 'Reimbursement Guideline',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYVhkDx0G',
+        category: 'hr_admin',
+        description: 'Guideline for reimbursement',
+        icon: 'fas fa-file-invoice-dollar'
     }
 ];
 
@@ -188,7 +204,7 @@ const G1_9Schedule = [
             { time: '10:30-11:30', activity: 'Mingwan Parents in Focus: Demands, Expectations, and Collaboration Pathways', presenter: 'Michelle Liang', location: '3-503' },
             { time: '11:30-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
             { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'CCA, School Activity and Project Planning', presenters: ['Teachers'],location:'3-503' }
+            { time: '13:15-17:00', activity: 'Activity and Project Planning', presenters: ['Teachers'] }
         ]
     },
     {
