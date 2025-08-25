@@ -3,7 +3,7 @@ let files = [
     {
         id: 4,
         name: '2025 HR Induction for New Staffs',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136576LqNS',
         category: 'hr_admin',
         description: 'Comprehensive induction program materials for new staff members joining in 2025.',
         icon: 'fas fa-user-plus'
