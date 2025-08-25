@@ -11,7 +11,7 @@ let files = [
     {
         id: 5,
         name: 'Campus Service',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755049574hqmR',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755136553ALS7',
         category: 'campus',
         description: 'Information about various campus services available to staff and students.',
         icon: 'fas fa-building'
@@ -27,7 +27,7 @@ let files = [
     {
         id: 3,
         name: 'Competency Rubrics and Indicator',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.754822676RCCk',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755053728fgnx',
         category: 'teaching',
         description: 'Assessment rubrics and competency indicators for educational evaluation.',
         icon: 'fas fa-clipboard-check'
@@ -43,7 +43,7 @@ let files = [
     {
         id: 1,
         name: 'Introduction and Guide for Individual Income Tax Annual Settlement',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755137500pBzn',
         category: 'hr_admin',
         description: 'Comprehensive guide for annual tax settlement procedures and requirements.',
         icon: 'fas fa-calculator'
@@ -67,7 +67,7 @@ let files = [
     {
         id: 7,
         name: 'Non-Academic Staff Contact Information',
-        url: 'https://doc.weixin.qq.com/doc/w3_AZEAQwZ-AKECNSFwEqJqWS26L4J6K?scode=AIkA9Qf4AHYUAGz6wMAZEAQwZ-AKE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.7549979218uaJ',
         category: 'campus',
         description: 'Contact information and details for non-academic staff members across campus services.',
         icon: 'fas fa-address-book'
@@ -75,7 +75,7 @@ let files = [
     {
         id: 9,
         name: 'Physical Environment Guidelines',
-        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.755043564dG0E',
+        url: 'https://doc.weixin.qq.com/doc/w3_AZEAQwZ-AKECNSFwEqJqWS26L4J6K?scode=AIkA9Qf4AHYUAGz6wMAZEAQwZ-AKE&folder_share_code=AIkA9Qf4AHY6iSz9C1',
         category: 'campus',
         description: 'Guidelines for maintaining and organizing the physical learning environment.',
         icon: 'fas fa-map-marked-alt'
