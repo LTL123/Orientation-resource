@@ -159,6 +159,14 @@ let files = [
         category: 'hr_admin',
         description: 'Guideline for reimbursement',
         icon: 'fas fa-file-invoice-dollar'
+    },
+    {
+        id: 21,
+        name: '中方教职工补充医疗保险介绍',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY6iSz9C1#/preview?fileId=i.1970326833001865.1688856590657934_f.756105706Nisj',
+        category: 'hr_admin',
+        description: '中方教职工补充医疗保险介绍',
+        icon: 'fas fa-file-medical'
     }
 ];
 
