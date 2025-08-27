@@ -167,6 +167,14 @@ let files = [
         category: 'hr_admin',
         description: '中方教职工补充医疗保险介绍',
         icon: 'fas fa-file-medical'
+    },
+     {
+        id: 22,
+        name: 'Parents Handbook',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYUyFGk06',
+        category: 'policies',
+        description: 'Parents Handbook',
+        icon: 'fas fa-file-medical'
     }
 ];
 
