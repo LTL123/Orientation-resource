@@ -6,21 +6,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="format-detection" content="telephone=no">
-    <title>Orientation Resources & Schedules</title>
+    <title>Resource Hub</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1><i class="fas fa-graduation-cap"></i> Orientation Resources & Schedules</h1>
-            <p>Last updated: August 22nd. If you cannot find a resource you're looking for, please contact me via WeChat Work. - Bin Li </p>
+            <h1><i class="fas fa-graduation-cap"></i> Resource Hub</h1>
+            <p>Last updated: Sep 4th. If you cannot find a resource you're looking for, please contact me via WeChat Work. - Bin Li </p>
         </div>
 
         <div class="main-content">
             <div class="nav-tabs">
                 <button class="nav-tab active" onclick="showTab('resources')">Resources</button>
-                <button class="nav-tab" onclick="showTab('schedules')">Schedules</button>
             </div>
 
             <div id="resources" class="tab-content active">
@@ -50,22 +49,7 @@
                 </div>
             </div>
 
-            <div id="schedules" class="tab-content">
-                <div class="schedule-container">
-                    <div class="schedule-tabs">
-                        <button class="schedule-tab active" onclick="showSchedule('G1-9 Schedule')">G1-9 Schedule</button>
-                        <button class="schedule-tab" onclick="showSchedule('kindergarten')">Kindergarten Schedule</button>
-                    </div>
-                    
-                    <div id="G1_9Schedule" class="schedule-content active">
-                        <!-- Weekly schedule will be populated by JavaScript -->
-                    </div>
-                    
-                    <div id="kindergartenSchedule" class="schedule-content">
-                        <!-- Kindergarten schedule will be populated by JavaScript -->
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 

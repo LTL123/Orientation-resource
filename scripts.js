@@ -175,188 +175,70 @@ let files = [
         category: 'policies',
         description: 'Parents Handbook',
         icon: 'fas fa-file-medical'
+    },
+    {
+        id: 23,
+        name: 'School Calendar',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHY453VqPK',
+        category: 'campus',
+        description: 'Official school calendar with important dates and events',
+        icon: 'fas fa-calendar-alt'
+    },
+    {
+        id: 24,
+        name: 'Responsibilities and Reporting Procedures',
+        url: 'https://doc.weixin.qq.com/pdf/d3_AUQAswbBAH8CNPzLmAgkDSVG2nB8y?scode=AIkA9Qf4AHY02OAoj0ARcANgbLAGc',
+        category: 'policies',
+        description: 'Guidelines on staff responsibilities and reporting procedures',
+        icon: 'fas fa-clipboard-list'
+    },
+    {
+        id: 25,
+        name: 'Student List',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYCLEOAx4',
+        category: 'campus',
+        description: 'Complete list of students enrolled in the school',
+        icon: 'fas fa-users'
+    },
+    {
+        id: 26,
+        name: 'Timetable and Duties',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYWihYSJB',
+        category: 'campus',
+        description: 'Class schedules and duty assignments for staff',
+        icon: 'fas fa-calendar-alt'
+    },
+    {
+        id: 27,
+        name: 'Teacher Supervision Roster (Duties)',
+        url: 'https://drive.weixin.qq.com/s?k=AIkA9Qf4AHYWihYSJB#/preview?fileId=s.1970326833001865.756464971aYr_f.7568100401ldr',
+        category: 'campus',
+        description: 'Teacher supervision schedule and duty roster assignments',
+        icon: 'fas fa-clipboard-check'
     }
 ];
 
 // 周计划数据
-const G1_9Schedule = [
-    {
-        day: 'Monday Aug 18',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase - Guess who Baby photo', presenter: 'Rose' },
-            { time: '9:15-10:45', activity: 'Behaviour Policy & Faculty Handbook', presenters: ['Jie', 'Jie', 'Rose'], location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '11:15-12:15', activity: 'Safeguard Training', presenter: 'Rose', location: '3-503' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-14:15', activity: 'Social Emotional Learning & Second Step', presenter: 'Rose', location: '3-503' },
-            { time: '14:15-14:30', activity: 'Break' },
-            { time: '14:30-16:00', activity: 'Lesson Planning', location: '3-503' },
-            { time: '16:30-17:00', activity: 'Divisional Checkout' }
-        ]
-    },
-    {
-        day: 'Tuesday Aug 19',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Michelle Liang' },
-            { time: '9:15-10:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenter: 'Rose', location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '11:15-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-14:45', activity: 'Language Policy in practice', presenter: 'Michelle Ip', location: '3-503' },
-            { time: '14:45-15:00', activity: 'Break' },
-            { time: '15:00-16:30', activity: 'First Aid Training (External Provider)', presenters: ['external provider, Michelle Liang', 'Rachel'], location: 'TBD' },
-            { time: '16:30-17:00', activity: 'Divisional Checkout' }
-        ]
-    },
-    {
-        day: 'Wednesday Aug 20',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Vera' },
-            { time: '9:15-10:45', activity: 'One Planet Foundation(TBD)', presenters: ['Ted', 'Chundan'], location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '10:30-11:30', activity: 'Mingwan Parents in Focus: Demands, Expectations, and Collaboration Pathways', presenter: 'Michelle Liang', location: '3-503' },
-            { time: '11:30-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'Activity and Project Planning', presenters: ['Teachers'] }
-        ]
-    },
-    {
-        day: 'Thursday Aug 21',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase' },
-            { time: '9:15-10:15', activity: 'Adaptive Schools' },
-            { time: '10:15-10:30', activity: 'Tea Break' },
-            { time: '10:30-12:15', activity: 'Adaptive Schools' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'Adaptive Schools' }
-        ]
-    },
-    {
-        day: 'Friday Aug 22',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase' },
-            { time: '9:15-10:15', activity: 'Adaptive Schools' },
-            { time: '10:15-10:30', activity: 'Tea Break' },
-            { time: '10:30-12:15', activity: 'Adaptive Schools' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'Adaptive Schools' }
-        ]
-    }
-];
 
-const kindergartenSchedule = [
-    {
-        day: 'Monday Aug 18',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Guess who Baby photos', presenter: 'Rose' },
-            { time: '9:15-10:45', activity: 'Behaviour Policy & Faculty Handbook', presenters: ['Jie', 'Jie', 'Rose'], location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '11:15-12:15', activity: 'Safeguard Training', presenter: 'Rose', location: '3-503' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-14:15', activity: 'Social Emotional Learning & Second Step', presenter: 'Rose', location: '3-503' },
-            { time: '14:15-14:30', activity: 'Break' },
-            { time: '14:30-16:00', activity: 'Early English Literacy Program K-G3', location: '3-503' },
-            { time: '16:30-17:00', activity: 'Divisional Checkout' }
-        ]
-    },
-    {
-        day: 'Tuesday Aug 19',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Michelle Liang' },
-            { time: '9:15-10:45', activity: 'Student Support (Learning, Language, Counselling MTSS)', presenter: 'Rose', location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '11:15-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-14:45', activity: 'Language Policy in practice', presenter: 'Michelle Ip', location: '3-503' },
-            { time: '14:45-15:00', activity: 'Break' },
-            { time: '15:00-16:30', activity: 'First Aid Training (External Provider)', presenters: ['external provider, Michelle Liang', 'Rachel'], location: 'TBD' },
-            { time: '16:30-17:00', activity: 'Divisional Checkout' }
-        ]
-    },
-    {
-        day: 'Wednesday Aug 20',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase', presenter: 'Vera' },
-            { time: '9:15-10:45', activity: 'One Planet Foundation(TBD)', presenters: ['Ted', 'Chundan'], location: '3-503' },
-            { time: '10:45-11:15', activity: 'Tea Break' },
-            { time: '10:30-11:30', activity: 'Mingwan Parents in Focus: Demands, Expectations, and Collaboration Pathways', presenter: 'Michelle Liang', location: '3-503' },
-            { time: '11:30-12:15', activity: 'Sign up Tech Workshops', location: 'Rooms 2-201, 2-202, 2-203, 2-204' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-14:15', activity: 'Additional Parent Communication Needs', presenters: ['Jie'], location: '3-501A' },
-            { time: '14:15-15:30', activity: 'Disease, Safety, and Accident Report Procedure', presenters: ['Jie', 'Nurse'] },
-            { time: '15:30-17:00', activity: 'Lesson Planning / Classroom Set-up', presenters: ['Teachers'] }
-        ]
-    },
-    {
-        day: 'Thursday Aug 21',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase' },
-            { time: '9:15-10:15', activity: 'Adaptive Schools' },
-            { time: '10:15-10:30', activity: 'Tea Break' },
-            { time: '10:30-12:15', activity: 'Adaptive Schools' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'Adaptive Schools' }
-        ]
-    },
-    {
-        day: 'Friday Aug 22',
-        events: [
-            { time: '8:30-8:45', activity: 'Arrival' },
-            { time: '8:45-9:15', activity: 'Touchbase' },
-            { time: '9:15-10:15', activity: 'Adaptive Schools' },
-            { time: '10:15-10:30', activity: 'Tea Break' },
-            { time: '10:30-12:15', activity: 'Adaptive Schools' },
-            { time: '12:15-13:15', activity: 'Lunch' },
-            { time: '13:15-17:00', activity: 'Adaptive Schools' }
-        ]
-    }
-];
+
+
 
 // 主要功能函数
 function showTab(tabName) {
-    // 隐藏所有标签内容
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
+    // Since we only have resources tab now, ensure it stays active
+    const resourcesTab = document.getElementById('resources');
+    if (resourcesTab) {
+        resourcesTab.classList.add('active');
+    }
     
-    // 移除所有导航标签的活动状态
-    document.querySelectorAll('.nav-tab').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // 显示选中的标签
-    document.getElementById(tabName).classList.add('active');
-    event.target.classList.add('active');
+    // Ensure the resources tab button stays active
+    const navTab = document.querySelector('.nav-tab');
+    if (navTab) {
+        navTab.classList.add('active');
+    }
 }
 
-function showSchedule(scheduleType) {
-    // 隐藏所有时间表内容
-    document.querySelectorAll('.schedule-content').forEach(content => {
-        content.classList.remove('active');
-    });
-    
-    // 移除所有时间表标签的活动状态
-    document.querySelectorAll('.schedule-tab').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // 显示选中的时间表
-    if (scheduleType === 'G1-9 Schedule') {
-        document.getElementById('G1_9Schedule').classList.add('active');
-    } else {
-        document.getElementById('kindergartenSchedule').classList.add('active');
-    }
-    event.target.classList.add('active');
-}
+
 
 // 资源过滤和搜索
 let currentSearchTerm = '';
@@ -459,69 +341,9 @@ function populateResources() {
     });
 }
 
-// 填充时间表
-function populateSchedules() {
-    if (typeof G1_9Schedule !== 'undefined' && Array.isArray(G1_9Schedule)) {
-        populateScheduleContent('G1_9', G1_9Schedule);
-    }
-    if (typeof kindergartenSchedule !== 'undefined' && Array.isArray(kindergartenSchedule)) {
-        populateScheduleContent('kindergarten', kindergartenSchedule);
-    }
-}
 
-function populateScheduleContent(scheduleType, scheduleData) {
-    const containerId = scheduleType === 'G1_9' ? 'G1_9Schedule' : 'kindergartenSchedule';
-    const container = document.getElementById(containerId);
-    if (!container || !scheduleData || !Array.isArray(scheduleData)) {
-        console.log(`Schedule data not available for ${containerId}`);
-        return;
-    }
-    
-    let html = '<div class="schedule-grid">';
-    
-    scheduleData.forEach(dayData => {
-        html += `
-            <div class="day-block">
-                <div class="day-header">${dayData.day}</div>
-                <div class="events-timeline">
-        `;
-        
-        dayData.events.forEach(event => {
-            const presenters = event.presenters ? event.presenters.join(', ') : (event.presenter || '');
-            const location = event.location || '';
-            
-            // 确定特殊样式的块类型
-            let blockClass = '';
-            const activity = event.activity.toLowerCase();
-            if (activity.includes('break') || activity.includes('lunch') || activity.includes('tea')) {
-                blockClass = 'break';
-            } else if (activity.includes('safeguard') || activity.includes('first aid') || activity.includes('adaptive schools')) {
-                blockClass = 'important';
-            }
-            
-            html += `
-                <div class="time-block ${blockClass}">
-                    <div class="time-slot">${event.time}</div>
-                    <div class="activity-content">
-                        <div class="activity-title">${event.activity}</div>
-                        <div class="activity-details">
-                            ${presenters ? `<span class="presenter"><i class="fas fa-user"></i>${presenters}</span>` : ''}
-                            ${location ? `<span class="location"><i class="fas fa-map-marker-alt"></i>${location}</span>` : ''}
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
-        
-        html += `
-                </div>
-            </div>
-        `;
-    });
-    
-    html += '</div>';
-    container.innerHTML = html;
-}
+
+
 
 // 更新最后更新日期
 function updateLastUpdated() {
@@ -535,7 +357,6 @@ function updateLastUpdated() {
 document.addEventListener('DOMContentLoaded', function() {
     // 使用数据初始化
     populateResources();
-    populateSchedules();
     updateLastUpdated();
 });
 
